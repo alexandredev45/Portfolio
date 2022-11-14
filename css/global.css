@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #000;
+    --cinza: #262525;
+    --azul: #0772b2;
+    --verde: #06f363;
+    --white: #ffffff;
+}
