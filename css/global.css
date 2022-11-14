@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
 }
 
 :root {
@@ -9,5 +12,18 @@
     --cinza: #262525;
     --azul: #0772b2;
     --verde: #06f363;
-    --white: #ffffff;
+    --branco: #ffffff;
+}
+
+body{
+    background-color: var(--cinza);
+}
+
+.h2-center{
+    color: var(--branco);
+    margin: 15px 0px;
+    font-size: 2.3rem;
+    text-align: center;
+    text-decoration: underline 2px;
+    letter-spacing: 1px;
 }
