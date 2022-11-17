@@ -1,0 +1,40 @@
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.skills .tools ul li img{
+    max-width: 50px;
+    margin: .5rem .5rem;
+}
+
+.skills .personal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.skills .personal ul li{
+    margin: .20rem .5rem;
+    padding: .5rem;
+}
+
+@media screen and (min-width: 760px) {
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

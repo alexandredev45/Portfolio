@@ -1,0 +1,24 @@
+
+
+.expirence{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.expirence li{
+    margin-bottom: 1.5rem;
+}
+
+.expirence li .periodo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.expirence li .periodo::before{
+    content: "..";
+    display: inline-block;
+    margin-right: .5rem;
+}
