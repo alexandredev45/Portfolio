@@ -12,7 +12,7 @@
 
 .acordeon.open,
 .acordeon:hover{
-    background-color: #55569e;
+    background-color: transparent;
     border-color: #55569e;
 }
 

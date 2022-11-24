@@ -24,7 +24,7 @@
 }
 
 .projetos li .title.github::before{
-    content: ">";
+    content: ".";
     display: inline-block;
     margin-right: .5rem;
     transform: rotate(270deg);
